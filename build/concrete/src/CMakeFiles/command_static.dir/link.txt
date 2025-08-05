@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcommand_static.a CMakeFiles/command_static.dir/ReadCommand.cpp.o CMakeFiles/command_static.dir/WriteCommand.cpp.o
+/usr/bin/ranlib libcommand_static.a

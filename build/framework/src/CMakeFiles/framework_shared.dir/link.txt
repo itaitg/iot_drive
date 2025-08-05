@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libframework_shared.so -o libframework_shared.so CMakeFiles/framework_shared.dir/FW_TPTask.cpp.o CMakeFiles/framework_shared.dir/Framework.cpp.o 

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libminionmanager_shared.so -o libminionmanager_shared.so CMakeFiles/minionmanager_shared.dir/MinionManager.cpp.o 

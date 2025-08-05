@@ -1,0 +1,2 @@
+/usr/bin/ar qc libresponsemanager_static.a CMakeFiles/responsemanager_static.dir/ResponseManager.cpp.o
+/usr/bin/ranlib libresponsemanager_static.a

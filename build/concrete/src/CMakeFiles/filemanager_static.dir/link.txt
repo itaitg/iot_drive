@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfilemanager_static.a CMakeFiles/filemanager_static.dir/FileManager.cpp.o
+/usr/bin/ranlib libfilemanager_static.a

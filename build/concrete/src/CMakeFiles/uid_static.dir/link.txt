@@ -1,0 +1,2 @@
+/usr/bin/ar qc libuid_static.a CMakeFiles/uid_static.dir/UID.cpp.o
+/usr/bin/ranlib libuid_static.a

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/logger.dir/LoggerTest.cpp.o -o logger  -Wl,-rpath,"/media/bender/Hard Drive/InfinityLabs/IOT-Based-Drive/build/framework/test:/media/bender/Hard Drive/InfinityLabs/IOT-Based-Drive/build/framework/src" libHandletondll2.so ../src/liblogger_static.a libHandletondll1.so ../src/libhandleton_shared.so 

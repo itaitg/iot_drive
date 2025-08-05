@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdirmonitor_static.a CMakeFiles/dirmonitor_static.dir/DirMonitor.cpp.o CMakeFiles/dirmonitor_static.dir/DLLLoader.cpp.o
+/usr/bin/ranlib libdirmonitor_static.a

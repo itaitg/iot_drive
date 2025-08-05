@@ -1,0 +1,2 @@
+/usr/bin/ar qc libminion_write_command_static.a CMakeFiles/minion_write_command_static.dir/MinionWriteCommand.cpp.o CMakeFiles/minion_write_command_static.dir/MinionWriteArgs.cpp.o CMakeFiles/minion_write_command_static.dir/ATaskArgs.cpp.o CMakeFiles/minion_write_command_static.dir/FileManager.cpp.o
+/usr/bin/ranlib libminion_write_command_static.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libframework_static.a CMakeFiles/framework_static.dir/FW_TPTask.cpp.o CMakeFiles/framework_static.dir/Framework.cpp.o
+/usr/bin/ranlib libframework_static.a

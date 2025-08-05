@@ -1,0 +1,2 @@
+/usr/bin/ar qc libminion_write_args_static.a CMakeFiles/minion_write_args_static.dir/MinionWriteArgs.cpp.o
+/usr/bin/ranlib libminion_write_args_static.a

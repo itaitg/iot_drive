@@ -1,0 +1,2 @@
+/usr/bin/ar qc libasyncinjection_static.a CMakeFiles/asyncinjection_static.dir/ASyncInjection.cpp.o CMakeFiles/asyncinjection_static.dir/Scheduler.cpp.o
+/usr/bin/ranlib libasyncinjection_static.a

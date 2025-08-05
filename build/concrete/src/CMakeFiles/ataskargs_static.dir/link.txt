@@ -1,0 +1,2 @@
+/usr/bin/ar qc libataskargs_static.a CMakeFiles/ataskargs_static.dir/ATaskArgs.cpp.o CMakeFiles/ataskargs_static.dir/UID.cpp.o
+/usr/bin/ranlib libataskargs_static.a

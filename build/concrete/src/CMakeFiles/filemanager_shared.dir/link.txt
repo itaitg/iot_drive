@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libfilemanager_shared.so -o libfilemanager_shared.so CMakeFiles/filemanager_shared.dir/FileManager.cpp.o 

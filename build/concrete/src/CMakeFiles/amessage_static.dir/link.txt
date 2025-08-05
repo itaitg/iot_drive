@@ -1,0 +1,2 @@
+/usr/bin/ar qc libamessage_static.a CMakeFiles/amessage_static.dir/AMessage.cpp.o CMakeFiles/amessage_static.dir/AMessageResponse.cpp.o CMakeFiles/amessage_static.dir/ReadMessageResponse.cpp.o CMakeFiles/amessage_static.dir/WriteMessageResponse.cpp.o CMakeFiles/amessage_static.dir/ReadMessageSend.cpp.o CMakeFiles/amessage_static.dir/WriteMessageSend.cpp.o CMakeFiles/amessage_static.dir/UID.cpp.o
+/usr/bin/ranlib libamessage_static.a

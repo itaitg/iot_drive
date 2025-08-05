@@ -1,0 +1,2 @@
+/usr/bin/ar qc libresponse_static.a CMakeFiles/response_static.dir/ReadResponse.cpp.o CMakeFiles/response_static.dir/WriteResponse.cpp.o
+/usr/bin/ranlib libresponse_static.a

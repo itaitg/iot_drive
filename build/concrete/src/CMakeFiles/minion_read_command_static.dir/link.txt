@@ -1,0 +1,2 @@
+/usr/bin/ar qc libminion_read_command_static.a CMakeFiles/minion_read_command_static.dir/MinionReadCommand.cpp.o CMakeFiles/minion_read_command_static.dir/MinionReadArgs.cpp.o CMakeFiles/minion_read_command_static.dir/ATaskArgs.cpp.o CMakeFiles/minion_read_command_static.dir/FileManager.cpp.o
+/usr/bin/ranlib libminion_read_command_static.a

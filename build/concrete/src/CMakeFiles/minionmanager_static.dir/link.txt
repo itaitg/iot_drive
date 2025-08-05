@@ -1,0 +1,2 @@
+/usr/bin/ar qc libminionmanager_static.a CMakeFiles/minionmanager_static.dir/MinionManager.cpp.o
+/usr/bin/ranlib libminionmanager_static.a

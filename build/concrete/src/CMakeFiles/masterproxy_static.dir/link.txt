@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmasterproxy_static.a CMakeFiles/masterproxy_static.dir/MasterProxy.cpp.o
+/usr/bin/ranlib libmasterproxy_static.a

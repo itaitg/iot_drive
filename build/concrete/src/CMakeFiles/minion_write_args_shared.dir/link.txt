@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libminion_write_args_shared.so -o libminion_write_args_shared.so CMakeFiles/minion_write_args_shared.dir/MinionWriteArgs.cpp.o 

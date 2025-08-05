@@ -1,0 +1,2 @@
+/usr/bin/ar qc libticket_static.a CMakeFiles/ticket_static.dir/Ticket.cpp.o
+/usr/bin/ranlib libticket_static.a

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/amessage.dir/AMessageTest.cpp.o -o amessage  ../src/libamessage_static.a 

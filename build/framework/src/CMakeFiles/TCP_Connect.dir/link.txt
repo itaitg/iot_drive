@@ -1,0 +1,2 @@
+/usr/bin/ar qc libTCP_Connect.a CMakeFiles/TCP_Connect.dir/TCP_Connect.cpp.o CMakeFiles/TCP_Connect.dir/Socket.cpp.o
+/usr/bin/ranlib libTCP_Connect.a

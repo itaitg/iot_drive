@@ -1,0 +1,2 @@
+/usr/bin/ar qc libschedulercpp_static.a CMakeFiles/schedulercpp_static.dir/Scheduler.cpp.o
+/usr/bin/ranlib libschedulercpp_static.a

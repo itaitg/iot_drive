@@ -1,0 +1,2 @@
+/usr/bin/ar qc libUDP_socket.a CMakeFiles/UDP_socket.dir/UDP_socket.cpp.o CMakeFiles/UDP_socket.dir/Socket.cpp.o
+/usr/bin/ranlib libUDP_socket.a

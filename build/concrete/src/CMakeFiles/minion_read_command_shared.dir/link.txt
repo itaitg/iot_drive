@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libminion_read_command_shared.so -o libminion_read_command_shared.so CMakeFiles/minion_read_command_shared.dir/MinionReadCommand.cpp.o CMakeFiles/minion_read_command_shared.dir/MinionReadArgs.cpp.o CMakeFiles/minion_read_command_shared.dir/ATaskArgs.cpp.o CMakeFiles/minion_read_command_shared.dir/FileManager.cpp.o 

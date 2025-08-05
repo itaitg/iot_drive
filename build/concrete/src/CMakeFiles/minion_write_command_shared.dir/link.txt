@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libminion_write_command_shared.so -o libminion_write_command_shared.so CMakeFiles/minion_write_command_shared.dir/MinionWriteCommand.cpp.o CMakeFiles/minion_write_command_shared.dir/MinionWriteArgs.cpp.o CMakeFiles/minion_write_command_shared.dir/ATaskArgs.cpp.o CMakeFiles/minion_write_command_shared.dir/FileManager.cpp.o 

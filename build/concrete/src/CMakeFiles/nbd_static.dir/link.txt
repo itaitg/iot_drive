@@ -1,0 +1,2 @@
+/usr/bin/ar qc libnbd_static.a CMakeFiles/nbd_static.dir/NBD.cpp.o
+/usr/bin/ranlib libnbd_static.a

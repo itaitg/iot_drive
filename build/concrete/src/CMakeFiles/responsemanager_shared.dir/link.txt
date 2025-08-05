@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libresponsemanager_shared.so -o libresponsemanager_shared.so CMakeFiles/responsemanager_shared.dir/ResponseManager.cpp.o 

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libminionproxy_static.a CMakeFiles/minionproxy_static.dir/MinionProxy.cpp.o
+/usr/bin/ranlib libminionproxy_static.a

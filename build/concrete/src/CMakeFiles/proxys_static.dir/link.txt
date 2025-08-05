@@ -1,0 +1,2 @@
+/usr/bin/ar qc libproxys_static.a CMakeFiles/proxys_static.dir/NBDProxy.cpp.o CMakeFiles/proxys_static.dir/NBDReadArgs.cpp.o CMakeFiles/proxys_static.dir/NBDWriteArgs.cpp.o CMakeFiles/proxys_static.dir/ReadCommand.cpp.o CMakeFiles/proxys_static.dir/WriteCommand.cpp.o
+/usr/bin/ranlib libproxys_static.a

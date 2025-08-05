@@ -1,0 +1,2 @@
+/usr/bin/ar qc libreactor_static.a CMakeFiles/reactor_static.dir/Reactor.cpp.o CMakeFiles/reactor_static.dir/LinuxListener.cpp.o
+/usr/bin/ranlib libreactor_static.a
