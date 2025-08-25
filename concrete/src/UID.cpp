@@ -1,9 +1,10 @@
 
 #include "UID.hpp"
 
-std::atomic<size_t> ilrd::UID::m_counter = 0;
+std::atomic<size_t> ilrd::UID::m_counter = 1;
 
 ilrd::UID::UID(): m_uid(m_counter++){}
+ilrd::UID::UID(size_t dummy_): m_uid(0){(void)dummy_;}
 
 bool ilrd::UID::operator==(const UID& other_) const
 {

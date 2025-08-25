@@ -5,7 +5,7 @@
 
 void AMessageTest()
 {
-
+    ilrd::ReadMessageResponse hello;
 }
 
 int main()

@@ -23,13 +23,6 @@ target_sources(uid_shared PRIVATE UID.hpp)
 target_sources(ataskargs_static PRIVATE ATaskArgs.hpp)
 target_sources(ataskargs_shared PRIVATE ATaskArgs.hpp)
 
-target_sources(amessage_static PRIVATE AMessage.hpp UID.hpp AMessageResponse.hpp ReadMessageResponse.hpp
-        WriteMessageResponse.hpp ReadMessageSend.hpp
-        WriteMessageSend.hpp )
-target_sources(amessage_shared PRIVATE AMessage.hpp UID.hpp AMessageResponse.hpp
-        ReadMessageResponse.hpp
-        WriteMessageResponse.hpp ReadMessageSend.hpp
-        WriteMessageSend.hpp )
 
 target_sources(ticket_static PRIVATE Ticket.hpp)
 target_sources(ticket_shared PRIVATE Ticket.hpp)

@@ -25,18 +25,33 @@ add_library(uid_static STATIC UID.cpp)
 add_library(uid_shared SHARED UID.cpp)
 
 project(ataskargs)
-add_library(ataskargs_static STATIC ATaskArgs.cpp UID.cpp)
+add_library(ataskargs_static STATIC ATaskArgs.cpp)
 add_library(ataskargs_shared SHARED ATaskArgs.cpp UID.cpp)
+target_link_libraries(ataskargs_static PUBLIC uid_static)
+
+
+
+
+#project(messageresponse)
+#add_library(messageresponse_static STATIC AMessage.cpp AMessageResponse.cpp
+#        ReadMessageResponse.cpp WriteMessageResponse.cpp)
+#target_link_libraries(messageresponse_static PUBLIC uid_static)
+
+#project(amessage)
+#add_library(amessage_static STATIC AMessage.cpp ReadMessageSend.cpp
+#        WriteMessageSend.cpp)
+#target_link_libraries(amessage_static PUBLIC uid_static)
 
 project(amessage)
 add_library(amessage_static STATIC AMessage.cpp AMessageResponse.cpp
         ReadMessageResponse.cpp
         WriteMessageResponse.cpp ReadMessageSend.cpp
-        WriteMessageSend.cpp )
-add_library(amessage_shared SHARED AMessage.cpp AMessageResponse.cpp ReadMessageResponse.cpp
+        WriteMessageSend.cpp)
+add_library(amessage_shared SHARED AMessage.cpp AMessageResponse.cpp
+        ReadMessageResponse.cpp
         WriteMessageResponse.cpp ReadMessageSend.cpp
-        WriteMessageSend.cpp )
-target_link_libraries(amessage_static PUBLIC uid_shared)
+        WriteMessageSend.cpp)
+target_link_libraries(amessage_static PUBLIC uid_static)
 target_link_libraries(amessage_shared PUBLIC uid_shared)
 
 
@@ -55,6 +70,7 @@ add_library(response_shared SHARED ReadResponse.cpp WriteResponse.cpp)
 project(masterproxy)
 add_library(masterproxy_static STATIC MasterProxy.cpp)
 add_library(masterproxy_shared SHARED MasterProxy.cpp)
+target_link_libraries(masterproxy_static PUBLIC amessage_static)
 
 project(filemanager)
 add_library(filemanager_static STATIC FileManager.cpp)
